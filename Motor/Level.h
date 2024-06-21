@@ -9,10 +9,11 @@ class Level
 {
 private:
 	vector<string> levelData;
+	vector<glm::vec2> zombiePositions;
 	int numHumans;
 	void parseLevel();
 	glm::vec2 playerPosition;
-	vector<glm::vec2> zombies;
+	//vector<glm::vec2> zombies;
 public:
 	Level(const string& fileName);
 	void draw();
@@ -25,7 +26,7 @@ public:
 		return playerPosition;
 	}
 	vector<glm::vec2> getZombiesPosition() {
-		return zombies;
+		return zombiePositions;
 	}
 	vector<string>& getLevelData() {
 		return levelData;

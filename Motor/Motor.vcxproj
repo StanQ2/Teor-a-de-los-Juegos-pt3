@@ -162,6 +162,7 @@
     <ClInclude Include="Agent.h" />
     <ClInclude Include="App.h" />
     <ClInclude Include="Camera2D.h" />
+    <ClInclude Include="Constantes.h" />
     <ClInclude Include="Error.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameplayScreen.h" />
